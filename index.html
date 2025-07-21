@@ -36,42 +36,69 @@
 <body class="bg-black text-white">
   <!-- Hero Section -->
   <section class="min-h-screen flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20 py-12 gap-10">
-    <div class="flex-1">
+  <!-- Left section: Name, intro, and contact -->
+  <div class="flex-1 flex flex-col justify-between gap-10">
+
+    <!-- Name & Intro -->
+    <div>
       <p class="text-red-400 bg-gray-800 px-4 py-1 rounded-full inline-block mb-4">👋 Hi there, I am</p>
       <h1 class="text-4xl sm:text-5xl font-bold leading-tight mb-4">
         <span class="text-cyan-400">Sharmila</span> <span class="text-orange-400">Kanuru</span>
       </h1>
-      
       <p class="mt-10 max-w-xl">
-       Crafting responsive and visually engaging websites using HTML, CSS,and modern tools like Tailwind CSS.  
-Driven by a deep interest in UI/UX design and emerging AI technologies.
-
+        Crafting responsive and visually engaging websites using HTML, CSS, and modern tools like Tailwind CSS.  
+        Driven by a deep interest in UI/UX design and emerging AI technologies.
       </p>
-
-      <!-- Social Links -->
-      <div class="mt-10 border border-yellow-500 p-4 rounded-2xl max-w-md">
-        <h2 class="text-lg font-semibold mb-8">Connect <span class="text-yellow-400">with me</span></h2>
-        <div class="flex flex-wrap gap-8">
-          <a href="https://github.com/shamu0507" target="_blank"
-            class="bg-gray-800 px-4 py-2 rounded-md hover:bg-gray-700 flex items-center gap-2">GitHub</a>
-          <a href="https://www.linkedin.com/in/sharmila-kanuru-952a78353/" target="_blank"
-            class="bg-blue-500 text px-4 py-2 rounded-md hover:bg-gray-400 flex items-center gap-2">LinkedIn</a>
-          <a href="https://www.hackerrank.com/profile/sharmilakanuru07" target="_blank"
-          
-  HackerRank
-            class="bg-green-800 px-4 py-2 rounded-md hover:bg-gray-700 flex items-center gap-2">HackerRank</a>
-        </div>
-      </div>
     </div>
 
-    <!-- Profile Image -->
-    <div class="flex-1 flex justify-center items-center">
-      <div class="rounded-full border-4 border-cyan-500 p-1 shadow-lg hover:shadow-cyan-400 transition">
-        <img src="./assets/shammu.jpg" alt="Kanuru Sharmila"
-          class="w-90, h-80 object-cover rounded-full shadow-lg" />
+    <!-- Connect with me -->
+    <div class="mt-6 border border-yellow-500 p-3 rounded-3xl max-w-md w-full">
+      <h2 class="text-lg font-semibold mb-8">Connect <span class="text-yellow-400">with me</span></h2>
+      <div class="flex flex-wrap justify-center gap-4">
+
+        <!-- GitHub -->
+        <a href="https://github.com/shamu0507" target="_blank"
+          class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 flex items-center gap-2 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 0C5.37 0 0 5.4 0 12.06c0 5.33 3.438 9.85 8.207 11.45.6.11.793-.26.793-.577v-2.234c-3.338.73-4.033-1.61-4.033-1.61-.546-1.39-1.333-1.76-1.333-1.76-1.09-.76.082-.745.082-.745 1.204.087 1.837 1.25 1.837 1.25 1.07 1.84 2.807 1.31 3.493 1 .108-.78.42-1.31.763-1.61-2.665-.3-5.467-1.34-5.467-5.96 0-1.31.467-2.38 1.236-3.22-.125-.3-.536-1.52.117-3.17 0 0 1.01-.33 3.3 1.23a11.27 11.27 0 0 1 6 0c2.29-1.56 3.3-1.23 3.3-1.23.653 1.65.242 2.87.118 3.17.77.84 1.236 1.91 1.236 3.22 0 4.63-2.805 5.66-5.48 5.96.432.38.816 1.12.816 2.26v3.35c0 .32.192.693.8.577C20.565 21.91 24 17.39 24 12.06 24 5.4 18.627 0 12 0Z" />
+          </svg>
+          GitHub
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/sharmila-kanuru-952a78353/" target="_blank"
+          class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 flex items-center gap-2 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M19 0h-14C2.243 0 0 2.243 0 5v14c0 2.757 2.243 5 5 5h14c2.757 0 5-2.243 5-5V5c0-2.757-2.243-5-5-5zM7.5 19H4.5V9H7.5v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm14 11.268h-3v-5.5c0-1.338-.025-3.063-1.875-3.063-1.875 0-2.125 1.464-2.125 2.975V19h-3V9h2.875v1.375h.042c.4-.762 1.375-1.563 2.833-1.563 3.031 0 3.594 1.993 3.594 4.588V19z" />
+          </svg>
+          LinkedIn
+        </a>
+
+        <!-- HackerRank -->
+        <a href="https://www.hackerrank.com/profile/sharmilakanuru07" target="_blank"
+          class="bg-green-700 text-white px-4 py-2 rounded-md hover:bg-green-600 flex items-center gap-2 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 512 512" fill="currentColor">
+            <path
+              d="M477.5 128.2L293.8 10.4c-25.6-16.4-59.9-16.4-85.5 0L34.5 128.2C12.7 142.6 0 167.2 0 193.3v125.3c0 26.1 12.7 50.7 34.5 65.1l173.8 117.8c25.6 16.4 59.9 16.4 85.5 0l183.7-117.8c21.8-14.4 34.5-39 34.5-65.1V193.3c0-26.1-12.7-50.7-34.5-65.1zM336.5 351h-40.4v-69.8h-80.1V351h-40.4V161h40.4v70.8h80.1V161h40.4V351z" />
+          </svg>
+          HackerRank
+        </a>
+
       </div>
     </div>
-  </section>
+  </div>
+
+  <!-- Profile Image -->
+  <div class="flex justify-center items-center self-center">
+    <div class="rounded-full border-4 border-cyan-500 p-1 shadow-lg hover:shadow-cyan-400 transition">
+      <img src="./assets/shammu.jpg" alt="Kanuru Sharmila"
+        class="w-80 h-86 object-cover rounded-full shadow-lg" />
+    </div>
+  </div>
+</section>
+
 
   <!-- All Other Sections -->
   <main class="px-5 lg:px-20 space-y-10 pb-5">
@@ -92,107 +119,137 @@ Driven by a deep interest in UI/UX design and emerging AI technologies.
     </section>
 
     <!-- Education -->
-    <section id="education">
-      <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-4">Education</h2>
-      <ul class="space-y-6 list-disc pl-5">
-        <li><strong><span style="color: aqua;">BTech in CSE (AIML)</span></strong> – <a href="https://www.viet.edu.in/" target="_blank"
-            class=" hover:underline">VISAKHA INSTITUTE OF ENGINEERING AND TECHNOLOGY</a></li>
-        <li><strong><span style="color: aqua;">INTREMEDIATE (MPC)</span></strong> – <a href="https://vizianagaram.ap.gov.in/public-utility/model-school-jr-college-pedamedapalli-mentada/" class=" hover:underline">AP MODEL JUNIOR
-            COLLEGE, PEDAMEDAPALLI</a></li>
-            <li><strong><span style="color: aqua;">SSC</span></strong> – <a href="https://vizianagaram.ap.gov.in/public-utility/model-school-jr-college-pedamedapalli-mentada/" class=" hover:underline">AP MODEL JUNIOR
-            COLLEGE, PEDAMEDAPALLI</a></li>
-        
-           
+  <!-- Education & Academic Courses Section Combined -->
+<section id="education-academics" >
+  <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-4">Education</h2>
+  <ul class="space-y-4 list-disc pl-5 mb-8">
+    <li>
+      <strong><span class="text-cyan-300">BTech in CSE (AIML)</span></strong> –
+      <a href="https://www.viet.edu.in/" target="_blank" class="hover:underline text-white">VISAKHA INSTITUTE OF ENGINEERING AND TECHNOLOGY</a>
+    </li>
+    <li>
+      <strong><span class="text-cyan-300">INTERMEDIATE (MPC)</span></strong> –
+      <a href="https://vizianagaram.ap.gov.in/public-utility/model-school-jr-college-pedamedapalli-mentada/" target="_blank" class="hover:underline text-white">AP MODEL JUNIOR COLLEGE, PEDAMEDAPALLI</a>
+    </li>
+    <li>
+      <strong><span class="text-cyan-300">SSC</span></strong> –
+      <a href="https://vizianagaram.ap.gov.in/public-utility/model-school-jr-college-pedamedapalli-mentada/" target="_blank" class="hover:underline text-white">AP MODEL JUNIOR COLLEGE, PEDAMEDAPALLI</a>
+    </li>
+  </ul>
 
-      </ul>
-    </section>
-
-    <!-- Academic Courses -->
-    <section id="academic">
-      <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-4">Academic Courses</h2>
-      <div class="flex flex-wrap gap-3">
-        <!-- Each course below -->
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          C
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            A foundational programming language known for its speed and control over hardware.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          Python
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Popular language for AI, ML, and scripting tasks.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          Data Structures
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Study of organizing and storing data efficiently.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          java 
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Object-oriented programming language used widely in applications.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          Web development
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Study of organizing and storing data efficiently.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          DLD
-          <div class="popup-info absolute  text-white p-1 rounded mt-2 w-48 z-10 text-sm text-center">
-            Focuses on designing and analyzing digital circuits using logic gates and Boolean algebra.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          CO
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Explores the internal architecture of computers, including CPU design, memory, and instruction execution.
-            </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          AI
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Enables machines to mimic human intelligence to solve complex problems and make decisions.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-4 rounded text-cyan-300 relative">
-          ML
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Study of organizing and storing data efficiently.
-          </div>
-        </span>
-        <span class="subject-item bg-gray-800 px-3 py-2 rounded text-cyan-300 relative">
-          Deep Learning
-          <div class="popup-info absolute  text-white p-2 rounded mt-2 w-48 z-10 text-sm text-center">
-            Study of organizing and storing data efficiently.
-          </div>
-        </span>
-
-        <!-- Add other courses similarly -->
+  <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-6">Academic Courses</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-8">
+    <!-- Academic Course Cards -->
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">C</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        A foundational programming language known for its speed and control over hardware.
       </div>
-    </section>
+    </div>
 
-    <!-- Certifications -->
-    <section id="certifications">
-      <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-4">Certifications</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div>
-          <img src="./assets/mrtech.jpg" alt="Java Full Stack" class="rounded hover-effect cursor-pointer"
-            onclick="openModal('./assets/mrtech.jpg')" />
-          <p class="mt-2 text-center">Java Full Stack by MR Technologies</p>
-        </div>
-        <div>
-          <img src="./assets/excler.jpg" alt="Deep Learning" class="rounded hover-effect cursor-pointer"
-            onclick="openModal('./assets/excler.jpg')" />
-          <p class="mt-2 text-center">Deep Learning by EXCLER</p>
-        </div>
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">Python</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Popular language for AI, ML, and scripting tasks.
       </div>
-    </section>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">Data Structures</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Study of organizing and storing data efficiently.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">Java</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Object-oriented programming language used widely in applications.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">Web Development</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Designing responsive and interactive websites.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">DLD</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Designing and analyzing digital circuits using logic gates.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">CO</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Internal architecture of computers, memory, and CPU.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">AI</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Machines mimicking human intelligence.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">ML</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Training systems to learn from data.
+      </div>
+    </div>
+
+    <div class="relative group bg-gray-800 p-4 rounded-lg text-center cursor-pointer hover:shadow-lg transition-all duration-300"
+         onclick="togglePopup(this)">
+      <p class="text-cyan-300 font-semibold">Deep Learning</p>
+      <div class="popup-info hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-black text-white text-sm p-2 rounded shadow-lg w-44 z-50">
+        Neural networks used to model complex patterns.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications">
+  <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-6">Certifications</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div>
+      <img src="./assets/mrtech.jpg" alt="Java Full Stack" class="w-full h-64 object-cover rounded hover:scale-105 transition cursor-pointer"
+        onclick="openModal('./assets/mrtech.jpg')" />
+      <p class="mt-2 text-center">Java Full Stack by MR Technologies</p>
+    </div>
+    <div>
+      <img src="./assets/excler.jpg" alt="Deep Learning" class="w-full h-64 object-cover rounded hover:scale-105 transition cursor-pointer"
+        onclick="openModal('./assets/excler.jpg')" />
+      <p class="mt-2 text-center">Deep Learning by EXCLER</p>
+    </div>
+    <div>
+      <img src="./assets/ml.jpg" alt="Machine Learning" class="w-full h-64 object-cover rounded hover:scale-105 transition cursor-pointer"
+        onclick="openModal('./assets/ml.jpg')" />
+      <p class="mt-2 text-center">Machine Learning by Coding Schools</p>
+    </div>
+    <div>
+      <img src="./assets/map.jpg" alt="Mobile App Development" class="w-full h-64 object-cover rounded hover:scale-105 transition cursor-pointer"
+        onclick="openModal('./assets/map.jpg')" />
+      <p class="mt-2 text-center">Mobile App Development by EDYGRAD</p>
+    </div>
+  </div>
+</section>
+
+
 
     <!-- Hobbies -->
     <section id="hobbies">
@@ -200,20 +257,20 @@ Driven by a deep interest in UI/UX design and emerging AI technologies.
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
        <img src="./assets/sk-1.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
   onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-2.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-3.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-4.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-5.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-6.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-7.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
-        <img src="./assets/sk-8.jpg" alt="Doodle Art" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
-  onclick="openModal('./assets/sk-1.jpg')" />
+        <img src="./assets/sk-2.jpg"  class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('./assets/sk-2.jpg')" />
+        <img src="./assets/sk-3.jpg"  class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('/assets/sk-3.jpg')" />
+        <img src="./assets/sk-4.jpg" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('./assets/sk-4.jpg')" />
+        <img src="./assets/sk-5.jpg" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('./assets/sk-5.jpg')" />
+        <img src="./assets/sk-6.jpg"class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('./assets/sk-6.jpg')" />
+        <img src="./assets/sk-7.jpg" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('./assets/sk-7.jpg')" />
+        <img src="./assets/sk-8.jpg" class="w-40 h-40 object-cover hover-effect cursor-pointer rounded"
+  onclick="openModal('./assets/sk-8.jpg')" />
 
 
 
@@ -222,7 +279,7 @@ Driven by a deep interest in UI/UX design and emerging AI technologies.
     </section>
     <!-- extra curricular activities -->
     <section id="Extra curricular activities">
-      <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-4">Certifications</h2>
+      <h2 class="text-2xl font-bold text-yellow-400 border-b border-yellow-700 pb-2 mb-4">Extra Curricular Ativities</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <div>
           <img src="./assets/ncc.jpg" alt="NCC Certificate-(A)" class="w-60 h-60 object-cover hover-effect cursor-pointer"
@@ -257,6 +314,21 @@ Driven by a deep interest in UI/UX design and emerging AI technologies.
     <span onclick="closeModal()" style="position:absolute; top:20px; right:35px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;">&times;</span>
     <img id="modalImg" src="" alt="Enlarged" style="margin:auto; display:block; max-width:90%; max-height:90%; position:absolute; top:0; bottom:0; left:0; right:0;" />
   </div>
+<script>
+  function togglePopup(el) {
+    const allPopups = document.querySelectorAll('.popup-info');
+    allPopups.forEach(p => {
+      if (p !== el.querySelector('.popup-info')) {
+        p.classList.add('hidden');
+      }
+    });
+
+    const popup = el.querySelector('.popup-info');
+    if (popup) {
+      popup.classList.toggle('hidden');
+    }
+  }
+</script>
 
   <script>
     function openModal(src) {
